@@ -15,6 +15,17 @@ export default function Navbar() {
             <Link href='/post/{id}' as={`/posts/${5}`}>
                 Posts for Id
             </Link>
+            <style jsx>
+                {`
+                  nav {
+                    padding-top: 10px;
+                  }
+
+                  a {
+                    padding: 0 10px;
+                  }
+                `}
+            </style>
         </nav>
     )
 }

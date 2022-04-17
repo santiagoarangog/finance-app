@@ -6,6 +6,17 @@ export default function Home() {
         <Layout>
             <Title>Home Page</Title>
             <p>Nuestra página de inicio</p>
+            <style jsx>
+                {`
+                  p {
+                    color: darkgray;
+                  }
+
+                  p:hover {
+                    color: darkred;
+                  }
+                `}
+            </style>
         </Layout>
     )
 }
