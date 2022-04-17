@@ -12,6 +12,9 @@ export default function Navbar() {
             <Link href='/posts'>
                 <a>Posts</a>
             </Link>
+            <Link href='/post/{id}' as={`/posts/${5}`}>
+                Posts for Id
+            </Link>
         </nav>
     )
 }

@@ -1,4 +1,6 @@
 import {useRouter} from "next/router";
+import Navbar from "../../components/navbar";
+import Title from "../../components/title";
 
 export default function Id() {
 
@@ -6,7 +8,8 @@ export default function Id() {
 
     return (
         <div>
-            <h2>Posts details</h2>
+            <Navbar/>
+            <Title>Posts details</Title>
             <p>Post Id: {router.query.id}</p>
         </div>
     )
